@@ -16,7 +16,7 @@ const NotFoundView = () => {
       >
         <Container maxWidth="md">
           <Typography align="center" color="textPrimary" variant="h3">
-            Please download the Naplozz app and Login
+            Please download the Hashlogics app and Login
           </Typography>
           <Typography align="center" color="textPrimary" variant="subtitle2">
             You can download the from play store and App store

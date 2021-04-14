@@ -34,7 +34,7 @@ const TopBar = ({ className, onMobileNavOpen, ...rest }) => {
     <AppBar className={clsx(classes.root, className)} elevation={0} {...rest}>
       <Toolbar>
         <RouterLink to="/">
-          <span style={{ color: 'white' }}>Naplozz</span>
+          <span style={{ color: 'white' }}>Hashlogics</span>
           {/* <Logo /> */}
         </RouterLink>
         <Box flexGrow={1} />

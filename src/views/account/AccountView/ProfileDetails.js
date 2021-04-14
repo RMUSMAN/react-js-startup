@@ -38,7 +38,7 @@ const ProfileDetails = ({ className,user, imageFile,...rest }) => {
     const s3bucket = new S3({
       accessKeyId: process.env.REACT_APP_ACCESSKEYID,
       secretAccessKey: process.env.REACT_APP_SECRETACCESSKEY,
-      Bucket: 'naplozz',
+      Bucket: 'yourBucketName',
       signatureVersion: 'v4',
       ACL: 'public-read',
       region: 'eu-central-1',
@@ -47,7 +47,7 @@ const ProfileDetails = ({ className,user, imageFile,...rest }) => {
     });
     s3bucket.createBucket(() => {
       const params = {
-        Bucket: 'naplozz',
+        Bucket: 'yourBucketName',
         Key: image.name,
         Body: image,
         ContentType: image.type,
